@@ -1,0 +1,29 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --accent: #223f95;
+  --accent2: #00a6e7;
+  --accent_light: #9ee4ff2a;
+  --teal: #227b94;
+  --light-blue: #78b7d0;
+  --yellow: #ffdc7f;
+  --grey: #747c84;
+  --light-grey: #b7bdc1;
+  --unit: 20px;
+  --max-width: 1200px;
+  --shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+  --trans: all 0.4s ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
