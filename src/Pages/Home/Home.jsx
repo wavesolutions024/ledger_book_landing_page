@@ -52,31 +52,35 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="hero_parent parent">
-        <div className="hero_cont cont">
-          <h1>About Our Company</h1>
-          <h2>How We Can Help you</h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but the
-             majority have suffered alteration in some form, by injected humour, or
-              randomised words which don't look even slightly believable. If you are 
-              going to use a passage of Lorem Ipsum
-          </p>
-          <p>
-            There isn't anything embarrassing hidden in the middle of text. All the Lorem 
-            Ipsum generators on the Internet tend to repeat predefined chunks as necessary 
-            you need to be sure
-          </p>
-
-          <button className="btn">More About Us</button>
+      <div className="abt_parent parent">
+        <div className="abt_cont cont">
+          <div className="abt_left">
+            <span>About Our Company</span>
+            <h3>How We Can Help You</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable. If you are going to use a passage of Lorem
+              Ipsum
+            </p>
+            <p>
+              There isn't anything embarrassing hidden in the middle of text.
+              All the Lorem Ipsum generators on the Internet tend to repeat
+              predefined chunks as necessary you need to be sure
+            </p>
+            <div className="btn">
+              More About Us
+            </div>
+          </div>
+          <div className="abt_right">
+            <div className="abt_inner_img bg-img-cover">
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div className="hero_img">
-          <img src={heroImg} alt="About Company"/>
-        </div>
-      </div> */}
-
-      <div class="abt_parent parent">
+      {/*<div class="abt_parent parent">
         <div class="abt_cont cont">
           <div class="abt_left">
             <span>About Our Company</span>
@@ -103,7 +107,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       <div className="about_parent parent">
         <div className="about_cont cont">
