@@ -494,7 +494,34 @@
         }
 
         .footer_col {
-         
+            max-width: 100%;
+            min-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 180px;
+                height: auto;
+            }
+
+            li,p {
+                text-align: center;
+            }
+
+            ul {
+                padding: 0;
+            }
+
+            .footer_note {
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 1.5;
+            }
         }
     }
 }
