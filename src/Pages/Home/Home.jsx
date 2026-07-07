@@ -1,13 +1,14 @@
 import React from "react";
 import "./Home.scss";
-import abt_img from "../../assets/car.png";
-import heroImg from "../../assets/hero.png";
-import { LuFileText } from "react-icons/lu";
-import { FaCarBattery } from "react-icons/fa";
-import { TbSettingsBolt } from "react-icons/tb";
-import { PiEngineBold } from "react-icons/pi";
-import { GiFlatTire } from "react-icons/gi";
-import { FaCar } from "react-icons/fa";
+import { FaBook } from "react-icons/fa";
+import { CiCalculator1 } from "react-icons/ci";
+import { CiStopwatch } from "react-icons/ci";
+import { FaMedal } from "react-icons/fa";
+import { FaHandshakeAngle } from "react-icons/fa6";
+import { MdBarChart } from "react-icons/md";
+import { FaCloud } from "react-icons/fa";
+import { FaBell } from "react-icons/fa";
+import { FaLock } from "react-icons/fa";
 import { FaUserGear } from "react-icons/fa6";
 import { FaUserGroup } from "react-icons/fa6";
 import { FaCircleNodes } from "react-icons/fa6";
@@ -28,153 +29,203 @@ const Home = () => {
     <>
       <div className="hero_section parent">
         <div className="hero_cont cont">
+
           <div className="hero_left">
-            <h1> Best Car Reparing Services</h1>
+
+            <span className="hero_tag">
+              #1 Gold Loan Software for Jewellers
+            </span>
+
+            <h1>Say goodbye to gold loan registers. Run your shop <span>digitally</span></h1>
             <p>
-              Quality auto repair wordpress Theme in Envato Market. We offer a
-              varity of custom services.
+              Ledger Book manages your gold loans, Bhishi schemes,
+              interest calculations, customer records and digital receipts-
+              all in one place. Built for the shop counter. Runs on Your
+              desktop or tablet.
             </p>
             <div className="buttons">
-              <button className="btn">More About</button>
+              <button className="btn1">Request a Free Demo</button>
+              <button className="btn2"> ▶ Watch 60-Second Demo</button>
             </div>
+
+            <div className="hero_points">
+              <p>✔ No setup work for you</p>
+              <p>✔ Our team installs it at your shop</p>
+              <p>✔ Works on desktop & tablet</p>
+            </div>
+
           </div>
 
           <div className="hero_right">
-            <h2>Request a Quote</h2>
-            <p>Fill out the from below and we'll get back to you soon.</p>
+            <h2>Request a Free Demo</h2>
+            <p>Just share a few details about your shop - our team will set everything up for you.</p>
             <form>
               <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <textarea placeholder="Message"></textarea>
+              <input type="email" placeholder="Shop Name / WhatsApp Number" />
+              <textarea placeholder="Message-e.g. I manage gold loans and Bhishi schemes for 30+ customers"></textarea>
               <button type="submit">Send Message</button>
             </form>
           </div>
         </div>
       </div>
 
-      <div className="abt_parent parent">
-        <div className="abt_cont cont">
-          <div className="abt_left">
-            <span>About Our Company</span>
-            <h3>How We Can Help You</h3>
-            <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum
-            </p>
-            <p>
-              There isn't anything embarrassing hidden in the middle of text.
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary you need to be sure
-            </p>
-            <div className="btn">
-              More About Us
+      <div className="problem_parent parent">
+        <div className="problem_cont cont">
+          <h1>THE PROBLEM</h1>
+          <h2>
+            Paper registers are costing you money
+            every day 
+          </h2>
+
+          <p>
+            Most jeweller still manage gold loans in diaries, Excel sheets, or loose papers. One
+            wrong entry, one missed interest date, one lost record-and thousand of rupees 
+            disappear without a trace.
+          </p>
+
+          <div className="top_content">
+            <div className="box">
+              <span><FaBook /></span>
+              <h3>Lost Records</h3>
+              <p>
+                A torn page, a spilled chai, a stolen register-and months
+                of loan data is gone. No backup, no recovery.
+              </p>
+            </div>
+            <div className="box">
+              <span><CiCalculator1 /></span>
+              <h3>Wrong Calculation</h3>
+              <p>
+               Manual interest calculation on multiple loans every day leade to error.
+               Customer overcharge or underchange-both hurt your business.
+              </p>
+            </div>
+            <div className="box">
+              <span><CiStopwatch /></span>
+              <h3>Missed Due Dates</h3>
+              <p>
+                Without automatic reminders, your forget to follow up. Coustomer
+                delay repayment. your cash flow suffers.
+              </p>
             </div>
           </div>
-          <div className="abt_right">
-            <div className="abt_inner_img bg-img-cover">
+
+          <h4>
+            There is a better wat-less time,zero calculation erroes, every record safe forever.
+          </h4>
+        </div>
+      </div>
+
+      <div className="about_parent parent">
+        <div className="about_cont cont">
+          <h1>FEATURE</h1>
+
+          <h2>Everything your jewellery shop needs. Nothings you doesn't.</h2>
+
+          <p>
+            Ledger Book is built specifically for gold jewellers - not a generic accounting tool
+            adapted for your shop. Every feature solves areal problem jewellers face daily.
+          </p>
+
+          <div className="top_content">
+            <div className="box">
+              <span>
+                <FaMedal />
+              </span>
+              <h3>Gold Loan Management</h3>
+              <p>
+                Add a new loan in 30 seconds. Track pledged gold weight, purity, customer name and loan 
+                amount. Auto-calculate interest daily or monthly. 
+              </p>
+            </div>
+            <div className="box">
+              <span>
+                <FaHandshakeAngle />
+              </span>
+              <h3>Bhishi Scheme Management</h3>
+              <p>
+                Manage Suvarn Bhishi, Sanchay Yojana and custom chit fund schemes. Track every member's 
+                installment and auto-calculate maturity payouts. 
+              </p>
+            </div>
+            <div className="box">
+              <span>
+                <MdBarChart />
+              </span>
+              <h3>Instant Business Reports</h3>
+              <p>
+                See total outstanding loans, overdue accounts, collections this month and profits — with one 
+                tap. No accountant needed.
+              </p>
+            </div>
+          </div>
+          <div className="top_content">
+            <div className="box">
+              <span>
+                <FaCloud />
+              </span>
+              <h3>Digital Receipts on WhatsApp</h3>
+              <p>
+                Generate a professional receipt in seconds and send it directly to your customer on WhatsApp. 
+                No printer needed.
+              </p>
+            </div>
+            <div className="box">
+              <span>
+                <FaBell />
+              </span>
+              <h3>Automatic Due Reminders</h3>
+              <p>
+                Set it once. Ledger Book automatically reminds you and your customers before loan due dates 
+                - so you never miss a collection. 
+              </p>
+            </div>
+            <div className="box">
+              <span>
+                <FaLock />
+              </span>
+              <h3>Safe & Secure Data</h3>
+              <p>
+                All records are encrypted and backed up securely. Even if you change your phone, all data is 
+                restored instantly.
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      {/*<div class="abt_parent parent">
-        <div class="abt_cont cont">
-          <div class="abt_left">
-            <span>About Our Company</span>
-            <h3>How We Can Help You</h3>
-            <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum
-            </p>
-            <p>
-              There isn't anything embarrassing hidden in the middle of text.
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary you need to be sure
-            </p>
-            <div class="btn">
-              More About Us
-            </div>
-          </div>
-          <div class="abt_right">
-            <div class="abt_inner_image bg-img-cover">
-              
-            </div>
-          </div>
-        </div>
-      </div>*/}
-
-      <div className="about_parent parent">
-        <div className="about_cont cont">
-          <h1>What We Do</h1>
-          <h2>Our Services</h2>
+      <div className="work_parent parent">
+        <div className="work_cont cont">
+          <h1>HOW IT WORKS</h1>
+          <h2>We Set It Up. You Just Start Using It.</h2>
+          <p>
+            This isn't a download-and-figure-it-out app. Our team comes to you shop, installs
+            Ledger Book on your desktop or tablet, and get your existing record in before we leave.
+          </p>
 
           <div className="top_content">
             <div className="box">
-              <span>
-                <LuFileText />
-              </span>
-              <h3>Diagnostic</h3>
+              <span>01</span>
+              <h3>Book a Free Demo</h3>
               <p>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures.
+                Tell us about your shop. we'll show you exactly how Ledger Book Works
+                for your gold loans and Bhishi schemes-no commitment.
               </p>
             </div>
             <div className="box">
-              <span>
-                <FaCarBattery />
-              </span>
-              <h3>Batteries</h3>
+              <span>02</span>
+              <h3>Our Team Sets it Up</h3>
               <p>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures.
+                we visit your shop, install Ledger Book on your desktop or tablet, and
+                migrate your existing loan and customer record for you.
               </p>
             </div>
             <div className="box">
-              <span>
-                <TbSettingsBolt />
-              </span>
-              <h3>Breaks</h3>
+              <span>03</span>
+              <h3>You Run Your Shop Digitally</h3>
               <p>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures.
-              </p>
-            </div>
-          </div>
-          <div className="top_content">
-            <div className="box">
-              <span>
-                <PiEngineBold />
-              </span>
-              <h3>Engine Repair</h3>
-              <p>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures.
-              </p>
-            </div>
-            <div className="box">
-              <span>
-                <GiFlatTire />
-              </span>
-              <h3>Tires Replacement</h3>
-              <p>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures.
-              </p>
-            </div>
-            <div className="box">
-              <span>
-                <FaCar />
-              </span>
-              <h3>Transmission</h3>
-              <p>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures.
+                Auto-calculate interest, instant receipts, due-date reminders and 
+                monthly reports-ready to use at your counter,no IT skills needed.
               </p>
             </div>
           </div>
@@ -185,37 +236,153 @@ const Home = () => {
         <div className="Count_cont cont">
           <div className="top_content">
             <div className="box">
-              <span>
-                <FaUserGear />
-              </span>
-              <h1>300+</h1>
-              <h2>Expert Technicians</h2>
+              <h1>500+</h1>
+              <h2>Jewellers Using Ledger Book</h2>
             </div>
 
             <div className="box">
-              <span>
-                <FaUserGroup />
-              </span>
-              <h1>1026</h1>
-              <h2>Satisfied Client</h2>
+              <h1>₹14/day</h1>
+              <h2>Cost Per Shop </h2>
             </div>
 
             <div className="box">
-              <span>
-                <FaCircleNodes />
-              </span>
-              <h1>25+</h1>
-              <h2>Years Experience</h2>
+              <h1>2 hrs</h1>
+              <h2>Saved Daily Per Shop</h2>
             </div>
 
             <div className="box">
-              <span>
-                <FaCarSide />
-              </span>
-              <h1>3215</h1>
-              <h2>Complete Project</h2>
+              <h1>15 min</h1>
+              <h2>Free Onboarding Call </h2>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="result_parent parent">
+        <div className="result_cont cont">
+          <h1>WHAT JEWELLERS SAY</h1>
+          <h2>Real shops. Real results.</h2>
+
+          <div className="top_content">
+            <div className="box">
+              <p>
+                “I used to spend 2 hours every evening updating loan registers. Now it takes 10 minutes. My 
+                 customers also love getting receipts on WhatsApp.”
+              </p>
+
+              <div className="bottom">
+                <span>RS</span>
+
+                <div className="name">
+                  <h1>Ramesh Soni</h1>
+                  <p>Gold Jeweller, Pune - Laxmi Road</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="box">
+              <p>
+                “Bhishi collection used to be a nightmare every month. With Ledger Book, everything is 
+                 automatic. No more chasing members for installments.”
+              </p>
+
+              <div className="bottom">
+                <span>SD</span>
+
+                <div className="name">
+                  <h1>Sunita Deshpande</h1>
+                  <p>Jewellery Shop Owner, Nashik</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="box">
+              <p>
+                “I was worried it would be too complicated. But the setup call made it easy. We were up and 
+                 running the same day.”
+              </p>
+              
+              <div className="bottom">
+                <span>VP</span>
+
+                <div className="name">
+                  <h1>Vijay Pawar</h1>
+                  <p>Jeweller, Kolhapur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pricing_parent parent">
+        <div className="pricing_cont cont">
+
+          <h1>One Software. One Price. No Surprises.</h1>
+
+          <p>
+            No per-user charges. No module upgrades. Everything is included — gold loans, 
+            Bhishi, receipts, reports — for one flat price. 
+          </p>
+
+          <div className="pricing_box">
+            <div className="card">
+
+              <span className="tag">BEST VALUE</span>
+              <h2>ANNUAL PLAN</h2>
+
+              <div className="price">
+                <h3>₹5,000</h3>
+                <span>/year</span>
+              </div>
+
+              <p className="offer">just ₹14 per day</p>
+              <ul>
+                <li>✓ Unlimited gold loan entries</li>
+                <li>✓ Bhishi / Sanchay Yojana management</li>
+                <li>✓ Auto interest calculation</li>
+                <li>✓ Digital receipts via WhatsApp</li>
+                <li>✓ Due date reminders</li>
+                <li>✓ Monthly business reports</li>
+                <li>✓ Secure cloud data backup</li>
+                <li>✓ Free onboarding setup call</li>
+                <li>✓ Email & WhatsApp support</li>
+              </ul>
+
+                <button>Start Free Trial</button>
+              
+            </div>
+
+            <div className="card">
+              <h2>MONTHLY PLAN</h2>
+
+              <div className="price">
+                <h3>₹499</h3>
+                <span>/month</span>
+              </div>
+
+              <p className="offer">Start small, upgrade anytime</p>
+
+              <ul>
+                <li>✓ Unlimited gold loan entries</li>
+                <li>✓ Bhishi scheme management</li>
+                <li>✓ Auto interest calculation</li>
+                <li>✓ Digital receipts via WhatsApp</li>
+                <li>✓ Due date reminders</li>
+                <li>✓ Monthly reports</li>
+                <li>✓ Data backup</li>
+                <li>✓ WhatsApp support</li>
+                <li>✓ Upgrade to annual anytime</li>
+              </ul>
+
+                <button className="outline">Start Free Trial</button>
+              
+            </div>
+          </div>
+
+          <p className="bottom_text">
+            All plans include a 15-day free trial. No credit card required to start.
+          </p>
         </div>
       </div>
 

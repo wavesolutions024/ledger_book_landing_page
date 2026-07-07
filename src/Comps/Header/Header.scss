@@ -1,7 +1,6 @@
 .header_parent {
     width: 100%;
-    background-color: rgba(0, 82, 145, 1);
-    box-shadow: 0px 0px 18px black (0, 0, 0, 0, 0.25);
+    background-color: #ebdfc6;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -9,9 +8,8 @@
 
 .header_cont {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 32px;
+    padding: 0;
 }
 
 img{
@@ -20,16 +18,18 @@ img{
 
 .navlinks {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: var(--gap, 18px);
+    margin-left: auto;
+    gap: var(--gap, 24px);
 }
 
 .navlinks a {
     text-decoration: none;
-    color: white;
+    color: #172541;
+    padding: 0 4px;
 
     &:hover {
-        color: black;
+        color: #d6b161;
     }
 }
