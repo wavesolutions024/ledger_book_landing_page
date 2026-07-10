@@ -12,6 +12,7 @@ import { FaLock } from "react-icons/fa";
 import logo from "../../assets/autologo.png";
 import laptop from "../../assets/laptop.avif";
 import carbuying from "../../assets/carbuying.webp";
+import Faq from "../../Comps/faq/Faq";
 
 const Home = () => {
   return (
@@ -378,7 +379,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-
+<Faq/>
       <div className="demo_parent parent">
         <div className="demo_cont cont">
 
