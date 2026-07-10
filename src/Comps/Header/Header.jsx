@@ -18,10 +18,9 @@ const Header = () => {
         <div className="navlinks">
             <Link to="/" >HOME</Link>
             <Link to="/">ABOUT US</Link>
-            <Link to="/">SERVICES</Link>
-            <Link to="/">PROJECT</Link>
-            <Link to="/">PAGES</Link>
-            <Link to="/">BLOG</Link>
+            <Link to="/">POBLEM</Link>
+            <Link to="/">FEATURES</Link>
+            <Link to="/">FAQ</Link>
             <Link to="/">CONTACT US</Link>
         </div>
         <div class="hamburger" onClick={()=>setActive(!active)}>
@@ -39,10 +38,9 @@ const Header = () => {
    {active &&   <div class="mobile_responsive">
        <Link onClick={()=>setActive(false)}  to="/">HOME</Link>
             <Link onClick={()=>setActive(false)} to="/">ABOUT US</Link>
-            <Link to="/">SERVICES</Link>
-            <Link to="/">PROJECT</Link>
-            <Link to="/">PAGES</Link>
-            <Link to="/">BLOG</Link>
+            <Link to="/">PROBLEM</Link>
+            <Link to="/">FEATURES</Link>
+            <Link to="/">FAQ</Link>
             <Link to="/">CONTACT US</Link>
       </div>}
      </div>

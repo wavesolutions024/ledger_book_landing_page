@@ -7,22 +7,41 @@ const Faq = () => {
   const faqContent = [
     {
       faq_heading:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, libero.",
+        "What do I need to run Ledger Book — a phone, computer?",
       faq_content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam asperiores qui, debitis sint fugiat obcaecati aut ipsum culpa optio architecto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam asperiores qui, debitis sint fugiat obcaecati aut ipsum culpa optio architecto",
+        "Ledger Book is built to run on a desktop or tablet at your shop counter — not on a phone. This keeps the screen large enough to read interest, receipts and reports clearly while you're with a customer. ",
     },
     {
       faq_heading:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, libero.",
+        "What happens to my data if my device is replaced? ",
       faq_content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam asperiores qui, debitis sint fugiat obcaecati aut ipsum culpa optio architecto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam asperiores qui, debitis sint fugiat obcaecati aut ipsum culpa optio architecto",
+        "All your data is securely backed up in the cloud. When our team sets you up on a new desktop or tablet, everything is exactly where you left it — every loan, every customer, every receipt. ",
     },
     {
       faq_heading:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, libero.",
+        "I am not very good with technology. Will this be difficult to learn?",
       faq_content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam asperiores qui, debitis sint fugiat obcaecati aut ipsum culpa optio architecto Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam asperiores qui, debitis sint fugiat obcaecati aut ipsum culpa optio architecto",
+        "You don't need to set anything up yourself. Our team visits your shop, installs Ledger Book, and personally walks you through it — so you're only ever using the finished, working system.",
     },
+    {
+      faq_heading:
+        "Can I manage Bhishi and Sanchay Yojana schemes along with gold loans? ",
+      faq_content:
+        "Yes. Ledger Book is built to handle both gold loan management and Bhishi / chit fund savings schemes in one place. You can manage multiple schemes simultaneously.",
+    },
+    {
+      faq_heading:
+        "Is my customer data safe? What about privacy? ",
+      faq_content:
+        "Your data is encrypted and stored securely. Only you can access your shop's data. We never share customer information with any third party.",
+    },
+    {
+      faq_heading:
+        "Can I sign up online myself? ",
+      faq_content:
+        "Ledger Book isn't a self-install app. Request a demo below and our team will visit your shop to set everything up, install it on your desktop or tablet, and get your records in for you.",
+    },
+
   ];
 
   return (

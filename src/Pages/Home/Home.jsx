@@ -9,9 +9,8 @@ import { MdBarChart } from "react-icons/md";
 import { FaCloud } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-import logo from "../../assets/autologo.png";
-import laptop from "../../assets/laptop.avif";
-import carbuying from "../../assets/carbuying.webp";
+import legerBook from "../../assets/book.png"
+import waveLogo from "../../assets/wave.png"
 import Faq from "../../Comps/faq/Faq";
 
 const Home = () => {
@@ -59,17 +58,69 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="abt_parent parent">
+        <div className="abt_cont cont">
+
+          <div className="abt_left">
+            <h1>ABOUT WAVE SOLUTIONS</h1>
+
+            <h2>Building Smarter Software <br /> for Jewellery Businesses</h2>
+
+            <p>
+              At <span>Wave Solution</span>, we develop practical software that
+              helps businesses replace manual processes with simple, secure, and
+              efficient digital solutions. Our goal is to solve real business
+              challenges with technology that is easy to use and delivers
+              measurable results.
+            </p>
+
+            <p>
+              Understanding the day-to-day operations of jewellery shops, we
+              created <span>Ledger Book</span>—a dedicated software solution
+              designed to simplify gold loan and Bhishi management. From
+              maintaining customer records and tracking pledged gold to
+              calculating interest automatically and generating digital
+              receipts, Ledger Book brings every essential operation together
+              in one secure platform.
+            </p>
+
+            <p>
+              Today, <span>Ledger Book</span> helps jewellery businesses
+              streamline operations, reduce errors, safeguard valuable records,
+              and focus on what matters most—serving customers and growing
+              their business.
+            </p>
+
+            <h3>
+              Simple. Secure. Built for Jewellers.
+              <span> Powered by Wave Solutions.</span>
+            </h3>
+          </div>
+
+          <div className="abt_right">
+
+            <div className="logo_box">
+              <img src={legerBook} alt="" />
+            </div>
+
+            <div className="logo_box">
+              <img src={waveLogo} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="problem_parent parent">
         <div className="problem_cont cont">
           <h1>THE PROBLEM</h1>
           <h2>
             Paper registers are costing you money
-            every day 
+            every day
           </h2>
 
           <p>
             Most jeweller still manage gold loans in diaries, Excel sheets, or loose papers. One
-            wrong entry, one missed interest date, one lost record-and thousand of rupees 
+            wrong entry, one missed interest date, one lost record-and thousand of rupees
             disappear without a trace.
           </p>
 
@@ -86,8 +137,8 @@ const Home = () => {
               <span><CiCalculator1 /></span>
               <h3>Wrong Calculation</h3>
               <p>
-               Manual interest calculation on multiple loans every day leade to error.
-               Customer overcharge or underchange-both hurt your business.
+                Manual interest calculation on multiple loans every day leade to error.
+                Customer overcharge or underchange-both hurt your business.
               </p>
             </div>
             <div className="box">
@@ -124,8 +175,8 @@ const Home = () => {
               </span>
               <h3>Gold Loan Management</h3>
               <p>
-                Add a new loan in 30 seconds. Track pledged gold weight, purity, customer name and loan 
-                amount. Auto-calculate interest daily or monthly. 
+                Add a new loan in 30 seconds. Track pledged gold weight, purity, customer name and loan
+                amount. Auto-calculate interest daily or monthly.
               </p>
             </div>
             <div className="box">
@@ -134,8 +185,8 @@ const Home = () => {
               </span>
               <h3>Bhishi Scheme Management</h3>
               <p>
-                Manage Suvarn Bhishi, Sanchay Yojana and custom chit fund schemes. Track every member's 
-                installment and auto-calculate maturity payouts. 
+                Manage Suvarn Bhishi, Sanchay Yojana and custom chit fund schemes. Track every member's
+                installment and auto-calculate maturity payouts.
               </p>
             </div>
             <div className="box">
@@ -144,7 +195,7 @@ const Home = () => {
               </span>
               <h3>Instant Business Reports</h3>
               <p>
-                See total outstanding loans, overdue accounts, collections this month and profits — with one 
+                See total outstanding loans, overdue accounts, collections this month and profits — with one
                 tap. No accountant needed.
               </p>
             </div>
@@ -156,7 +207,7 @@ const Home = () => {
               </span>
               <h3>Digital Receipts on WhatsApp</h3>
               <p>
-                Generate a professional receipt in seconds and send it directly to your customer on WhatsApp. 
+                Generate a professional receipt in seconds and send it directly to your customer on WhatsApp.
                 No printer needed.
               </p>
             </div>
@@ -166,8 +217,8 @@ const Home = () => {
               </span>
               <h3>Automatic Due Reminders</h3>
               <p>
-                Set it once. Ledger Book automatically reminds you and your customers before loan due dates 
-                - so you never miss a collection. 
+                Set it once. Ledger Book automatically reminds you and your customers before loan due dates
+                - so you never miss a collection.
               </p>
             </div>
             <div className="box">
@@ -176,7 +227,7 @@ const Home = () => {
               </span>
               <h3>Safe & Secure Data</h3>
               <p>
-                All records are encrypted and backed up securely. Even if you change your phone, all data is 
+                All records are encrypted and backed up securely. Even if you change your phone, all data is
                 restored instantly.
               </p>
             </div>
@@ -214,41 +265,15 @@ const Home = () => {
               <span>03</span>
               <h3>You Run Your Shop Digitally</h3>
               <p>
-                Auto-calculate interest, instant receipts, due-date reminders and 
+                Auto-calculate interest, instant receipts, due-date reminders and
                 monthly reports-ready to use at your counter,no IT skills needed.
               </p>
             </div>
           </div>
           <h4>
-              There's nothing for you to install or configure. Our team handles the entire 
-              setup — onsite, at your shop. 
+            There's nothing for you to install or configure. Our team handles the entire
+            setup — onsite, at your shop.
           </h4>
-        </div>
-      </div>
-
-      <div className="Count_parent parent">
-        <div className="Count_cont cont">
-          <div className="top_content">
-            <div className="box">
-              <h1>500+</h1>
-              <h2>Jewellers Using Ledger Book</h2>
-            </div>
-
-            <div className="box">
-              <h1>₹14/day</h1>
-              <h2>Cost Per Shop </h2>
-            </div>
-
-            <div className="box">
-              <h1>2 hrs</h1>
-              <h2>Saved Daily Per Shop</h2>
-            </div>
-
-            <div className="box">
-              <h1>15 min</h1>
-              <h2>Free Onboarding Call </h2>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -260,8 +285,8 @@ const Home = () => {
           <div className="top_content">
             <div className="box">
               <p>
-                “I used to spend 2 hours every evening updating loan registers. Now it takes 10 minutes. My 
-                 customers also love getting receipts on WhatsApp.”
+                “I used to spend 2 hours every evening updating loan registers. Now it takes 10 minutes. My
+                customers also love getting receipts on WhatsApp.”
               </p>
 
               <div className="bottom">
@@ -276,8 +301,8 @@ const Home = () => {
 
             <div className="box">
               <p>
-                “Bhishi collection used to be a nightmare every month. With Ledger Book, everything is 
-                 automatic. No more chasing members for installments.”
+                “Bhishi collection used to be a nightmare every month. With Ledger Book, everything is
+                automatic. No more chasing members for installments.”
               </p>
 
               <div className="bottom">
@@ -292,10 +317,10 @@ const Home = () => {
 
             <div className="box">
               <p>
-                “I was worried it would be too complicated. But the setup call made it easy. We were up and 
-                 running the same day.”
+                “I was worried it would be too complicated. But the setup call made it easy. We were up and
+                running the same day.”
               </p>
-              
+
               <div className="bottom">
                 <span>VP</span>
 
@@ -315,8 +340,8 @@ const Home = () => {
           <h1>One Software. One Price. No Surprises.</h1>
 
           <p>
-            No per-user charges. No module upgrades. Everything is included — gold loans, 
-            Bhishi, receipts, reports — for one flat price. 
+            No per-user charges. No module upgrades. Everything is included — gold loans,
+            Bhishi, receipts, reports — for one flat price.
           </p>
 
           <div className="pricing_box">
@@ -343,8 +368,8 @@ const Home = () => {
                 <li>✓ Email & WhatsApp support</li>
               </ul>
 
-                <button>Start Free Trial</button>
-              
+              <button>Start Free Trial</button>
+
             </div>
 
             <div className="card">
@@ -369,8 +394,8 @@ const Home = () => {
                 <li>✓ Upgrade to annual anytime</li>
               </ul>
 
-                <button className="outline">Start Free Trial</button>
-              
+              <button className="outline">Start Free Trial</button>
+
             </div>
           </div>
 
@@ -379,7 +404,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-<Faq/>
+      <Faq />
       <div className="demo_parent parent">
         <div className="demo_cont cont">
 
@@ -387,8 +412,8 @@ const Home = () => {
             <h1>GET STARTED</h1>
             <h2>Book your free demo & 15-day trial</h2>
             <p>
-              Fill the form and our team will call you within 24 hours to set up your shop — 
-              free of cost. 
+              Fill the form and our team will call you within 24 hours to set up your shop —
+              free of cost.
             </p>
 
             <ul>
@@ -403,23 +428,23 @@ const Home = () => {
             <form>
               <div className="input_box">
                 <label>Your Name *</label>
-                <input type="text" placeholder="e.g Ramesh Soni"/>
+                <input type="text" placeholder="e.g Ramesh Soni" />
               </div>
 
               <div className="input_box">
                 <label>Shop Name *</label>
-                <input type="text" placeholder="e.g Soni Jewellers"/>
+                <input type="text" placeholder="e.g Soni Jewellers" />
               </div>
 
               <div className="row">
                 <div className="input_box">
                   <label>Phone / WhatsApp</label>
-                  <input type="text" placeholder="98XXXXXXXX"/>
+                  <input type="text" placeholder="98XXXXXXXX" />
                 </div>
 
                 <div className="input_box">
                   <label>City</label>
-                  <input type="text" placeholder="e.g. Pune"/>
+                  <input type="text" placeholder="e.g. Pune" />
                 </div>
               </div>
 
@@ -437,7 +462,7 @@ const Home = () => {
               <button type="submit">Request Free Demo</button>
 
               <p>
-                 No credit card required. Your details are kept private and never shared.
+                No credit card required. Your details are kept private and never shared.
               </p>
 
             </form>
@@ -450,21 +475,21 @@ const Home = () => {
 
           <h2>Your Gold Loan Register Is Costing You Time & Money Every Day.</h2>
           <p>
-            Join 500+ jewellers who have already switched to Ledger Book. Start your free 15-day 
+            Join 500+ jewellers who have already switched to Ledger Book. Start your free 15-day
             trial today — no credit card, no risk.
           </p>
 
           <button>
-             Start Free Trial — It's 100% Free 
+            Start Free Trial — It's 100% Free
           </button>
 
           <h3>
-             Questions? WhatsApp us: +91 XXXXX XXXXX  |  No credit card required  |  Free 
-             setup call included
+            Questions? WhatsApp us: +91 XXXXX XXXXX  |  No credit card required  |  Free
+            setup call included
           </h3>
 
           <h4>
-            Not ready yet? Download our free PDF guide: "5 Ways Gold Loan Errors Are Losing You Money" 
+            Not ready yet? Download our free PDF guide: "5 Ways Gold Loan Errors Are Losing You Money"
           </h4>
         </div>
       </div>
@@ -474,7 +499,7 @@ const Home = () => {
 
           <div className="footer_top">
             <div className="footer_logo">
-              <h2> Ledger Book — The Digital Ledger for<br/> every Jewellery Shop.</h2>
+              <h2> Ledger Book — The Digital Ledger for<br /> every Jewellery Shop.</h2>
             </div>
 
             <div className="footer_links">
@@ -490,8 +515,8 @@ const Home = () => {
           <div className="footer_bottom">
             <div className="footer_info">
               <p>
-                 WhatsApp: +91 XXXXX XXXXX  |  Email: support@ledgerbook.in  |  Pune, 
-                 Maharashtra
+                WhatsApp: +91 XXXXX XXXXX  |  Email: support@ledgerbook.in  |  Pune,
+                Maharashtra
               </p>
               <h3> © 2026 Ledger Book. All rights reserved.</h3>
             </div>

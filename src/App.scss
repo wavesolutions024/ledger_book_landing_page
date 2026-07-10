@@ -24,39 +24,6 @@ body {
   }
 }
 
-.btn1 {
-  background: #d39d34;
-  color: black;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-right: 16px;
-  transition: 0.3s ease;
-  
-  &:hover {
-    background: white;
-  }
-}
-
-.btn2 {
-  background: transparent;
-  color: white;
-  padding: 12px 24px;
-  border: 1px solid white;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-right: 16px;
-  transition: 0.3s ease;
-  
-  &:hover {
-    background: white;
-    color: black;
-  }
-}
-
 .bg-img-cover{
   background-position: center center;
   background-size: cover;
