@@ -9,6 +9,7 @@ const Header = () => {
      <div className="header_parent parent">
       <div className="header_cont cont">
         <img src={logo} alt="" />
+
         <div className="navlinks">
             <Link to="/">HOME</Link>
             <Link to="/">ABOUT US</Link>

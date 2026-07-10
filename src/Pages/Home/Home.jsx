@@ -9,17 +9,6 @@ import { MdBarChart } from "react-icons/md";
 import { FaCloud } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-import { FaUserGear } from "react-icons/fa6";
-import { FaUserGroup } from "react-icons/fa6";
-import { FaCircleNodes } from "react-icons/fa6";
-import { FaCarSide } from "react-icons/fa";
-import worker1 from "../../assets/worker1.png";
-import worker2 from "../../assets/worker2.png";
-import worker3 from "../../assets/worker3.png";
-import audi from "../../assets/audi.png";
-import person1 from "../../assets/person1.png";
-import person2 from "../../assets/person2.png";
-import person3 from "../../assets/person3.png";
 import logo from "../../assets/autologo.png";
 import laptop from "../../assets/laptop.avif";
 import carbuying from "../../assets/carbuying.webp";
@@ -124,7 +113,7 @@ const Home = () => {
 
           <p>
             Ledger Book is built specifically for gold jewellers - not a generic accounting tool
-            adapted for your shop. Every feature solves areal problem jewellers face daily.
+            adapted for your shop. Every feature solves a real problem jewellers face daily.
           </p>
 
           <div className="top_content">
@@ -200,7 +189,7 @@ const Home = () => {
           <h2>We Set It Up. You Just Start Using It.</h2>
           <p>
             This isn't a download-and-figure-it-out app. Our team comes to you shop, installs
-            Ledger Book on your desktop or tablet, and get your existing record in before we leave.
+            Ledger Book on your desktop or tablet, and gets your existing record in before we leave.
           </p>
 
           <div className="top_content">
@@ -229,6 +218,10 @@ const Home = () => {
               </p>
             </div>
           </div>
+          <h4>
+              There's nothing for you to install or configure. Our team handles the entire 
+              setup — onsite, at your shop. 
+          </h4>
         </div>
       </div>
 
@@ -386,77 +379,128 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="team_parent parent">
-        <div className="team_cont cont">
-          <h1>Meet Our Expertise</h1>
-          <h2>Our Awesome Team</h2>
+      <div className="demo_parent parent">
+        <div className="demo_cont cont">
 
-          <div className="members">
-            <div className="member">
-              <img src={worker1} alt="worker 1" />
-            </div>
+          <div className="demo_left">
+            <h1>GET STARTED</h1>
+            <h2>Book your free demo & 15-day trial</h2>
+            <p>
+              Fill the form and our team will call you within 24 hours to set up your shop — 
+              free of cost. 
+            </p>
 
-            <div className="member">
-              <img src={worker2} alt="worker 2" />
-            </div>
-
-            <div className="member">
-              <img src={worker3} alt="worker 3" />
-            </div>
+            <ul>
+              <li>✓ 15-day free trial, no credit card </li>
+              <li>✓ Free 15-minute setup call </li>
+              <li>✓ Works on any Android or iOS phone </li>
+              <li>✓ Support in English, Hindi & Marathi </li>
+            </ul>
           </div>
-        </div>
-      </div>
 
-      <div className="home_parent ">
-        <div className="appointment_parent">
-          <div className="appointment_form">
-            <h1>Book An Appointment</h1>
+          <div className="demo_right">
             <form>
-              <input type="text" placeholder="Name" />
-              <input type="text" placeholder="Phone" />
-              <input type="email" placeholder="Email" />
-              <select>
-                <option>Select Service</option>
-                <option>Car Repair</option>
-                <option>Maintenance</option>
-                <option>Inspection</option>
-              </select>
-              <textarea placeholder="Message"></textarea>
-              <button type="submit">Send Message</button>
+              <div className="input_box">
+                <label>Your Name *</label>
+                <input type="text" placeholder="e.g Ramesh Soni"/>
+              </div>
+
+              <div className="input_box">
+                <label>Shop Name *</label>
+                <input type="text" placeholder="e.g Soni Jewellers"/>
+              </div>
+
+              <div className="row">
+                <div className="input_box">
+                  <label>Phone / WhatsApp</label>
+                  <input type="text" placeholder="98XXXXXXXX"/>
+                </div>
+
+                <div className="input_box">
+                  <label>City</label>
+                  <input type="text" placeholder="e.g. Pune"/>
+                </div>
+              </div>
+
+              <div className="input_box">
+                <label>I'm interested in</label>
+
+                <select>
+                  <option> Gold Lona Management</option>
+                  <option>Bhishi-Sanchay Yojana</option>
+                  <option>Both</option>
+                  <option>Not sure</option>
+                </select>
+              </div>
+
+              <button type="submit">Request Free Demo</button>
+
+              <p>
+                 No credit card required. Your details are kept private and never shared.
+              </p>
+
             </form>
           </div>
         </div>
       </div>
 
+      <div className="final_parent parent">
+        <div className="final_cont cont">
+
+          <h2>Your Gold Loan Register Is Costing You Time & Money Every Day.</h2>
+          <p>
+            Join 500+ jewellers who have already switched to Ledger Book. Start your free 15-day 
+            trial today — no credit card, no risk.
+          </p>
+
+          <button>
+             Start Free Trial — It's 100% Free 
+          </button>
+
+          <h3>
+             Questions? WhatsApp us: +91 XXXXX XXXXX  |  No credit card required  |  Free 
+             setup call included
+          </h3>
+
+          <h4>
+            Not ready yet? Download our free PDF guide: "5 Ways Gold Loan Errors Are Losing You Money" 
+          </h4>
+        </div>
+      </div>
+
       <div className="footer_parent parent">
         <div className="footer_cont cont">
-          <div className="footer_col">
-            <img src={logo} alt="" />
-            <p>
-              Simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever.
-            </p>
+
+          <div className="footer_top">
+            <div className="footer_logo">
+              <h2> Ledger Book — The Digital Ledger for<br/> every Jewellery Shop.</h2>
+            </div>
+
+            <div className="footer_links">
+              <a href="#">Features</a>
+              <a href="#">How It Works</a>
+              <a href="#">Pricing</a>
+              <a href="#">Contact</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms Of Use</a>
+            </div>
           </div>
 
-          <div className="footer_col">
-            <h3>Page</h3>
-            <p>Home</p>
-            <p>About</p>
-            <p>Demo</p>
-            <p>Contact</p>
-          </div>
+          <div className="footer_bottom">
+            <div className="footer_info">
+              <p>
+                 WhatsApp: +91 XXXXX XXXXX  |  Email: support@ledgerbook.in  |  Pune, 
+                 Maharashtra
+              </p>
+              <h3> © 2026 Ledger Book. All rights reserved.</h3>
+            </div>
 
-          <div className="footer_col">
-            <h3>Address</h3>
-            <p>Head Office Address</p>
-            <p>121 King Street, Melbourne West, Australia</p>
-            <p>Phone: 888 123-4587</p>
-            <p>Email: info@example.com</p>
+            <div className="footer_social">
+              <a href="#">Instagram</a>
+              <a href="#">YouTube</a>
+              <a href="#">Facebook</a>
+            </div>
           </div>
-        </div>
-
-        <div className="footer_note">
-          <p>Privacy Policy | © 2026 Autalogic. Wave Solution</p>
         </div>
       </div>
     </>
