@@ -119,8 +119,8 @@ const Home = () => {
           </h2>
 
           <p>
-            Most jeweller still manage gold loans in diaries, Excel sheets, or loose papers. One
-            wrong entry, one missed interest date, one lost record-and thousand of rupees
+            Most jewellers still manage gold loans in diaries, Excel sheets, or loose papers. One
+            wrong entry, one missed interest date, one lost record-and thousands of rupees
             disappear without a trace.
           </p>
 
@@ -145,8 +145,8 @@ const Home = () => {
               </div>
 
               <p>
-                Manual interest calculation on multiple loans every day leade to error.
-                Customer overcharge or underchange-both hurt your business.
+                Manual interest calculation on multiple leads every day leade to error.
+                Customer overcharge or undercharge-both hurt your business.
               </p>
             </div>
             <div className="box">
@@ -156,7 +156,7 @@ const Home = () => {
               </div>
               
               <p>
-                Without automatic reminders, your forget to follow up. Coustomer
+                Without automatic reminders, you forget to follow up. Customer
                 delay repayment. your cash flow suffers.
               </p>
             </div>
@@ -260,8 +260,8 @@ const Home = () => {
           <h1>HOW IT WORKS</h1>
           <h2>We Set It Up. You Just Start Using It.</h2>
           <p>
-            This isn't a download-and-figure-it-out app. Our team comes to you shop, installs
-            Ledger Book on your desktop or tablet, and gets your existing record in before we leave.
+            This isn't a download-and-figure-it-out app. Our team comes to your shop, installs
+            Ledger Book on your desktop or tablet, and gets your existing records in before we leave.
           </p>
 
           <div className="top_content">
@@ -482,7 +482,7 @@ const Home = () => {
                 <label>I'm interested in</label>
 
                 <select>
-                  <option> Gold Lona Management</option>
+                  <option> Gold Loan Management</option>
                   <option>Bhishi-Sanchay Yojana</option>
                   <option>Both</option>
                   <option>Not sure</option>
