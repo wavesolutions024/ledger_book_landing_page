@@ -48,6 +48,7 @@ const Faq = () => {
     <div>
       <div class="faq_parent parent">
         <div class="faq_cont cont">
+          <h1>FAQs</h1>
           {faqContent.map((item, index) => (
             <div
               class={active === index ? "faq active" : "faq"}

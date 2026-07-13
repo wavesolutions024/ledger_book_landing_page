@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from "../../assets/book.png"
+import logo from "../../assets/wave.png"
 import"./Header.scss";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
@@ -18,7 +18,7 @@ const Header = () => {
         <div className="navlinks">
             <Link to="/" >HOME</Link>
             <Link to="/">ABOUT US</Link>
-            <Link to="/">POBLEM</Link>
+            <Link to="/">THE PROBLEM</Link>
             <Link to="/">FEATURES</Link>
             <Link to="/">FAQ</Link>
             <Link to="/">CONTACT US</Link>

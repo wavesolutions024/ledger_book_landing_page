@@ -1,5 +1,6 @@
 .faq_parent{
     padding: 40px 0px;
+    background: #f8f3e8;
 
     .faq_cont{
         display: flex;
@@ -7,6 +8,14 @@
         justify-content: center;
         align-items: center;
         gap: var(--gap);
+
+        h1 {
+            color: #b67a1f;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 18px;
+        }
 
         .faq{
             width: 100%;

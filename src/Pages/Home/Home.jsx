@@ -100,11 +100,11 @@ const Home = () => {
           <div className="abt_right">
 
             <div className="logo_box">
-              <img src={legerBook} alt="" />
+              <img src={waveLogo} alt="" />
             </div>
 
             <div className="logo_box">
-              <img src={waveLogo} alt="" />
+              <img src={legerBook} alt="" />
             </div>
           </div>
         </div>
@@ -125,25 +125,36 @@ const Home = () => {
           </p>
 
           <div className="top_content">
+
             <div className="box">
-              <span><FaBook /></span>
-              <h3>Lost Records</h3>
+
+              <div className="box_header">
+                <span><FaBook /></span>
+                <h3>Lost Records</h3>
+              </div>
+              
               <p>
                 A torn page, a spilled chai, a stolen register-and months
                 of loan data is gone. No backup, no recovery.
               </p>
             </div>
             <div className="box">
-              <span><CiCalculator1 /></span>
-              <h3>Wrong Calculation</h3>
+              <div className="box_header">
+                <span><CiCalculator1 /></span>
+                <h3>Wrong Calculation</h3>
+              </div>
+
               <p>
                 Manual interest calculation on multiple loans every day leade to error.
                 Customer overcharge or underchange-both hurt your business.
               </p>
             </div>
             <div className="box">
-              <span><CiStopwatch /></span>
-              <h3>Missed Due Dates</h3>
+              <div className="box_header">
+                <span><CiStopwatch /></span>
+                <h3>Missed Due Dates</h3>
+              </div>
+              
               <p>
                 Without automatic reminders, your forget to follow up. Coustomer
                 delay repayment. your cash flow suffers.
@@ -152,7 +163,7 @@ const Home = () => {
           </div>
 
           <h4>
-            There is a better wat-less time,zero calculation erroes, every record safe forever.
+            There is a better way-less time,zero calculation errors, every record safe forever.
           </h4>
         </div>
       </div>
@@ -169,63 +180,72 @@ const Home = () => {
           </p>
 
           <div className="top_content">
+
             <div className="box">
-              <span>
-                <FaMedal />
-              </span>
+              <div className="box_header">
+                <span><FaMedal /></span>
               <h3>Gold Loan Management</h3>
+              </div>
+
               <p>
                 Add a new loan in 30 seconds. Track pledged gold weight, purity, customer name and loan
                 amount. Auto-calculate interest daily or monthly.
               </p>
             </div>
             <div className="box">
-              <span>
-                <FaHandshakeAngle />
-              </span>
+              <div className="box_header">
+                <span><FaHandshakeAngle /></span>
               <h3>Bhishi Scheme Management</h3>
+              </div>
+              
               <p>
                 Manage Suvarn Bhishi, Sanchay Yojana and custom chit fund schemes. Track every member's
                 installment and auto-calculate maturity payouts.
               </p>
             </div>
             <div className="box">
-              <span>
-                <MdBarChart />
-              </span>
+              <div className="box_header">
+                <span><MdBarChart /></span>
               <h3>Instant Business Reports</h3>
+              </div>
+              
               <p>
                 See total outstanding loans, overdue accounts, collections this month and profits — with one
                 tap. No accountant needed.
               </p>
             </div>
           </div>
+
           <div className="top_content">
+
             <div className="box">
-              <span>
-                <FaCloud />
-              </span>
+              <div className="box_header">
+                <span><FaCloud /></span>
               <h3>Digital Receipts on WhatsApp</h3>
+              </div>
+              
               <p>
                 Generate a professional receipt in seconds and send it directly to your customer on WhatsApp.
                 No printer needed.
               </p>
             </div>
             <div className="box">
-              <span>
-                <FaBell />
-              </span>
+              <div className="box_header">
+                <span><FaBell /></span>
               <h3>Automatic Due Reminders</h3>
+              </div>
+              
               <p>
                 Set it once. Ledger Book automatically reminds you and your customers before loan due dates
                 - so you never miss a collection.
               </p>
             </div>
             <div className="box">
-              <span>
-                <FaLock />
-              </span>
+              <div className="box_header">
+                <span><FaLock /></span>
               <h3>Safe & Secure Data</h3>
+              </div>
+              
               <p>
                 All records are encrypted and backed up securely. Even if you change your phone, all data is
                 restored instantly.
@@ -245,25 +265,35 @@ const Home = () => {
           </p>
 
           <div className="top_content">
+
             <div className="box">
-              <span>01</span>
-              <h3>Book a Free Demo</h3>
+              <div className="box_header">
+                <span>01</span>
+                <h3>Book a Free Demo</h3>
+              </div>
+          
               <p>
                 Tell us about your shop. we'll show you exactly how Ledger Book Works
                 for your gold loans and Bhishi schemes-no commitment.
               </p>
             </div>
             <div className="box">
-              <span>02</span>
-              <h3>Our Team Sets it Up</h3>
+              <div className="box_header">
+                 <span>02</span>
+                 <h3>Our Team Sets it Up</h3>
+              </div>
+             
               <p>
                 we visit your shop, install Ledger Book on your desktop or tablet, and
                 migrate your existing loan and customer record for you.
               </p>
             </div>
             <div className="box">
-              <span>03</span>
-              <h3>You Run Your Shop Digitally</h3>
+              <div className="box_header">
+                <span>03</span>
+                <h3>You Run Your Shop Digitally</h3>
+              </div>
+              
               <p>
                 Auto-calculate interest, instant receipts, due-date reminders and
                 monthly reports-ready to use at your counter,no IT skills needed.
@@ -351,8 +381,8 @@ const Home = () => {
               <h2>ANNUAL PLAN</h2>
 
               <div className="price">
-                <h3>₹5,000</h3>
-                <span>/year</span>
+                <h3></h3>
+                <span></span>
               </div>
 
               <p className="offer">just ₹14 per day</p>
@@ -376,8 +406,8 @@ const Home = () => {
               <h2>MONTHLY PLAN</h2>
 
               <div className="price">
-                <h3>₹499</h3>
-                <span>/month</span>
+                <h3></h3>
+                <span></span>
               </div>
 
               <p className="offer">Start small, upgrade anytime</p>
@@ -503,7 +533,6 @@ const Home = () => {
             </div>
 
             <div className="footer_links">
-              <a href="#">Features</a>
               <a href="#">How It Works</a>
               <a href="#">Pricing</a>
               <a href="#">Contact</a>
@@ -523,8 +552,8 @@ const Home = () => {
 
             <div className="footer_social">
               <a href="#">Instagram</a>
-              <a href="#">YouTube</a>
-              <a href="#">Facebook</a>
+              <a href="#">Google</a>
+              <a href="#">Linkedin</a>
             </div>
           </div>
         </div>
