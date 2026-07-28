@@ -46,7 +46,7 @@ const Faq = () => {
 
   return (
     <div>
-      <div class="faq_parent parent">
+      <div id="faq" class="faq_parent parent">
         <div class="faq_cont cont">
           <h1>FAQs</h1>
           {faqContent.map((item, index) => (

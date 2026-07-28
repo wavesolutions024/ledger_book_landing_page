@@ -18,7 +18,7 @@ import demoGraphic from "../../assets/image2.png"
 const Home = () => {
   return (
     <>
-      <div className="hero_section parent">
+      <div id="home" className="hero_section parent">
         <div className="hero_cont cont">
 
           <div className="hero_left">
@@ -60,7 +60,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="abt_parent parent">
+      <div id="about" className="abt_parent parent">
         <div className="abt_cont cont">
 
           <div className="abt_left">
@@ -124,7 +124,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="problem_parent parent">
+      <div id="problem" className="problem_parent parent">
         <div className="problem_cont cont">
           <h1>THE PROBLEM</h1>
           <h2>
@@ -182,7 +182,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="about_parent parent">
+      <div id="features" className="about_parent parent">
         <div className="about_cont cont">
           <h1>FEATURE</h1>
 
@@ -531,7 +531,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="footer_parent parent">
+      <div id="contact" className="footer_parent parent">
         <div className="footer_cont cont">
 
           <div className="footer_top">
