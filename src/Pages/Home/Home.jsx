@@ -558,9 +558,9 @@ const Home = () => {
             </div>
 
             <div className="footer_social">
-              <a href="#">Instagram</a>
-              <a href="#">Google</a>
-              <a href="#">Linkedin</a>
+              <a href="https://www.instagram.com/wavesolutionsofficial/">Instagram</a>
+              <a href="https://www.facebook.com/WaveSolutionsOfficial/">Facebook</a>
+              <a href="https://www.linkedin.com/company/wavesolutionscompany/posts/">Linkedin</a>
             </div>
           </div>
         </div>
