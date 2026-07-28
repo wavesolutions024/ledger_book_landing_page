@@ -9,9 +9,11 @@ import { MdBarChart } from "react-icons/md";
 import { FaCloud } from "react-icons/fa";
 import { FaBell } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-import legerBook from "../../assets/book.png"
+import dashboardImg from "../../assets/image1.png"
 import waveLogo from "../../assets/wave.png"
+import legerBook from "../../assets/book.png"
 import Faq from "../../Comps/faq/Faq";
+import demoGraphic from "../../assets/image2.png"
 
 const Home = () => {
   return (
@@ -99,14 +101,26 @@ const Home = () => {
 
           <div className="abt_right">
 
-            <div className="logo_box">
-              <img src={waveLogo} alt="" />
+            <div className="logo_row">
+
+              <div className="wave_logo">
+                <img src={waveLogo} alt="Wave Solutions" />
+              </div>
+
+              <div className="divider"></div>
+
+              <div className="ledger_logo">
+                <img src={legerBook} alt="Ledger Book" />
+              </div>
+
             </div>
 
-            <div className="logo_box">
-              <img src={legerBook} alt="" />
+            <div className="dashboard_img">
+              <img src={dashboardImg} alt="Dashboard" />
             </div>
+
           </div>
+
         </div>
       </div>
 
@@ -132,7 +146,7 @@ const Home = () => {
                 <span><FaBook /></span>
                 <h3>Lost Records</h3>
               </div>
-              
+
               <p>
                 A torn page, a spilled chai, a stolen register-and months
                 of loan data is gone. No backup, no recovery.
@@ -154,7 +168,7 @@ const Home = () => {
                 <span><CiStopwatch /></span>
                 <h3>Missed Due Dates</h3>
               </div>
-              
+
               <p>
                 Without automatic reminders, you forget to follow up. Customer
                 delay repayment. your cash flow suffers.
@@ -184,7 +198,7 @@ const Home = () => {
             <div className="box">
               <div className="box_header">
                 <span><FaMedal /></span>
-              <h3>Gold Loan Management</h3>
+                <h3>Gold Loan Management</h3>
               </div>
 
               <p>
@@ -195,9 +209,9 @@ const Home = () => {
             <div className="box">
               <div className="box_header">
                 <span><FaHandshakeAngle /></span>
-              <h3>Bhishi Scheme Management</h3>
+                <h3>Bhishi Scheme Management</h3>
               </div>
-              
+
               <p>
                 Manage Suvarn Bhishi, Sanchay Yojana and custom chit fund schemes. Track every member's
                 installment and auto-calculate maturity payouts.
@@ -206,9 +220,9 @@ const Home = () => {
             <div className="box">
               <div className="box_header">
                 <span><MdBarChart /></span>
-              <h3>Instant Business Reports</h3>
+                <h3>Instant Business Reports</h3>
               </div>
-              
+
               <p>
                 See total outstanding loans, overdue accounts, collections this month and profits — with one
                 tap. No accountant needed.
@@ -221,9 +235,9 @@ const Home = () => {
             <div className="box">
               <div className="box_header">
                 <span><FaCloud /></span>
-              <h3>Digital Receipts on WhatsApp</h3>
+                <h3>Digital Receipts on WhatsApp</h3>
               </div>
-              
+
               <p>
                 Generate a professional receipt in seconds and send it directly to your customer on WhatsApp.
                 No printer needed.
@@ -232,9 +246,9 @@ const Home = () => {
             <div className="box">
               <div className="box_header">
                 <span><FaBell /></span>
-              <h3>Automatic Due Reminders</h3>
+                <h3>Automatic Due Reminders</h3>
               </div>
-              
+
               <p>
                 Set it once. Ledger Book automatically reminds you and your customers before loan due dates
                 - so you never miss a collection.
@@ -243,9 +257,9 @@ const Home = () => {
             <div className="box">
               <div className="box_header">
                 <span><FaLock /></span>
-              <h3>Safe & Secure Data</h3>
+                <h3>Safe & Secure Data</h3>
               </div>
-              
+
               <p>
                 All records are encrypted and backed up securely. Even if you change your phone, all data is
                 restored instantly.
@@ -271,7 +285,7 @@ const Home = () => {
                 <span>01</span>
                 <h3>Book a Free Demo</h3>
               </div>
-          
+
               <p>
                 Tell us about your shop. we'll show you exactly how Ledger Book Works
                 for your gold loans and Bhishi schemes-no commitment.
@@ -279,10 +293,10 @@ const Home = () => {
             </div>
             <div className="box">
               <div className="box_header">
-                 <span>02</span>
-                 <h3>Our Team Sets it Up</h3>
+                <span>02</span>
+                <h3>Our Team Sets it Up</h3>
               </div>
-             
+
               <p>
                 we visit your shop, install Ledger Book on your desktop or tablet, and
                 migrate your existing loan and customer record for you.
@@ -293,7 +307,7 @@ const Home = () => {
                 <span>03</span>
                 <h3>You Run Your Shop Digitally</h3>
               </div>
-              
+
               <p>
                 Auto-calculate interest, instant receipts, due-date reminders and
                 monthly reports-ready to use at your counter,no IT skills needed.
@@ -440,18 +454,11 @@ const Home = () => {
 
           <div className="demo_left">
             <h1>GET STARTED</h1>
-            <h2>Book your free demo & 15-day trial</h2>
-            <p>
-              Fill the form and our team will call you within 24 hours to set up your shop —
-              free of cost.
-            </p>
+            <h2>Book your free demo </h2>
 
-            <ul>
-              <li>✓ 15-day free trial, no credit card </li>
-              <li>✓ Free 15-minute setup call </li>
-              <li>✓ Works on any Android or iOS phone </li>
-              <li>✓ Support in English, Hindi & Marathi </li>
-            </ul>
+            <div className="graphic_box">
+              <img src={demoGraphic} alt="Demo Graphic" />
+            </div>
           </div>
 
           <div className="demo_right">
