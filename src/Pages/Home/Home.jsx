@@ -14,6 +14,7 @@ import waveLogo from "../../assets/wave.png"
 import legerBook from "../../assets/book.png"
 import Faq from "../../Comps/faq/Faq";
 import demoGraphic from "../../assets/image2.png"
+import GoldLoanPDF from "../../assets/5_Ways_Gold_Loan.pdf"
 
 const Home = () => {
   return (
@@ -525,9 +526,15 @@ const Home = () => {
             setup call included
           </h3>
 
-          <h4>
-            Not ready yet? Download our free PDF guide: "5 Ways Gold Loan Errors Are Losing You Money"
-          </h4>
+          <a
+            href={GoldLoanPDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pdf_btn"
+          >
+            Not ready yet? Download our free PDF guide:
+            <span> "5 Ways Gold Loan Errors Are Losing You Money"</span>
+          </a>
         </div>
       </div>
 
