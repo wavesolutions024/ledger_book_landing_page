@@ -91,6 +91,14 @@
                     color: white;
                 }
             }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+            .demo_parent {
+                scroll-margin-top: 100px; // header fixed असेल तर
+            }
         }
     }
 }

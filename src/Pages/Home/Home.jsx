@@ -36,7 +36,16 @@ const Home = () => {
               desktop or tablet.
             </p>
             <div className="buttons">
-              <button className="btn1">Request a Free Demo</button>
+              <button
+                className="btn1"
+                onClick={() =>
+                  document.getElementById("demo").scrollIntoView({
+                    behavior: "smooth",
+                  })
+                }
+              >
+                Request a Free Demo
+              </button>
               <button className="btn2"> ▶ Watch 60-Second Demo</button>
             </div>
 
@@ -379,6 +388,8 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Pricing Section 
+
       <div className="pricing_parent parent">
         <div className="pricing_cont cont">
 
@@ -449,8 +460,9 @@ const Home = () => {
           </p>
         </div>
       </div>
+      */}
       <Faq />
-      <div className="demo_parent parent">
+      <div id="demo" className="demo_parent parent">
         <div className="demo_cont cont">
 
           <div className="demo_left">
@@ -548,17 +560,14 @@ const Home = () => {
 
             <div className="footer_links">
               <a href="#">How It Works</a>
-              <a href="#">Pricing</a>
               <a href="#">Contact</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms Of Use</a>
             </div>
           </div>
 
           <div className="footer_bottom">
             <div className="footer_info">
               <p>
-                WhatsApp: +91 XXXXX XXXXX  |  Email: support@ledgerbook.in  |  Pune,
+                WhatsApp: +91 70289 97574  |  Email: wavesolutions024@gmail.com  |  Pune,
                 Maharashtra
               </p>
               <h3> © 2026 Ledger Book. All rights reserved.</h3>

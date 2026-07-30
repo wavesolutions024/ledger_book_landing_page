@@ -1,10 +1,12 @@
 :root {
-  --gap:14px;
+  --gap: 14px;
   --max-width: 1400px;
-  --accent:#d6b161;
+  --accent: #d6b161;
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -24,8 +26,21 @@ body {
   }
 }
 
-.bg-img-cover{
+.bg-img-cover {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home,
+#about,
+#problem,
+#features,
+#faq,
+#contact {
+  scroll-margin-top: 90px;
 }
