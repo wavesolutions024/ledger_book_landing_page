@@ -529,12 +529,8 @@ const Home = () => {
             trial today — no credit card, no risk.
           </p>
 
-          <button>
-            Start Free Trial — It's 100% Free
-          </button>
-
           <h3>
-            Questions? WhatsApp us: +91 XXXXX XXXXX  |  No credit card required  |  Free
+            Questions? WhatsApp us: +91 70289 97574   |  No credit card required  |  Free
             setup call included
           </h3>
 
