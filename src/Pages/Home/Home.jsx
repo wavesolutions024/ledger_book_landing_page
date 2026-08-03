@@ -46,7 +46,18 @@ const Home = () => {
               >
                 Request a Free Demo
               </button>
-              <button className="btn2"> ▶ Watch 60-Second Demo</button>
+
+              <button
+                className="btn2"
+                onClick={() =>
+                  window.open(
+                    "https://youtu.be/v5jEDAxEWJs?si=XO_kmAKZf33LohOG",
+                    "_blank"
+                  )
+                }
+              >
+                ▶ Watch 60-Second Demo
+              </button>
             </div>
 
             <div className="hero_points">
@@ -279,7 +290,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="work_parent parent">
+      <div id="work" className="work_parent parent">
         <div className="work_cont cont">
           <h1>HOW IT WORKS</h1>
           <h2>We Set It Up. You Just Start Using It.</h2>
@@ -555,8 +566,8 @@ const Home = () => {
             </div>
 
             <div className="footer_links">
-              <a href="#">How It Works</a>
-              <a href="#">Contact</a>
+              <a href="#work">How It Works</a>
+              <a href="#contact">Contact</a>
             </div>
           </div>
 
